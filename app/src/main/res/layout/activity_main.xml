@@ -1,18 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools">
 
+    <data>
 
-    <com.example.acbacommons.AcbaEditText
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:email="adfgfg" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+        <com.example.acbacommons.ACBAEditText.layouts.InputLayoutAcba
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content">
+
+            <com.example.acbacommons.ACBAEditText.layouts.AcbaEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="#040404"
+                android:background="#B8B8B8"
+                android:padding="16dp"
+                app:validator="none" />
+
+        </com.example.acbacommons.ACBAEditText.layouts.InputLayoutAcba>
+
+        <com.example.acbacommons.ACBAEditText.layouts.InputLayoutAcba
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content">
+
+            <com.example.acbacommons.ACBAEditText.layouts.AcbaEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="#040404"
+                android:background="#B8B8B8"
+                android:padding="16dp"
+                app:validator="email" />
+
+        </com.example.acbacommons.ACBAEditText.layouts.InputLayoutAcba>
+
+        <com.example.acbacommons.ACBAEditText.layouts.InputLayoutAcba
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content">
+
+            <com.example.acbacommons.ACBAEditText.layouts.AcbaEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="#040404"
+                android:background="#B8B8B8"
+                android:padding="16dp"
+                app:validator="name" />
+
+        </com.example.acbacommons.ACBAEditText.layouts.InputLayoutAcba>
+
+        <com.example.acbacommons.ACBAEditText.layouts.InputLayoutAcba
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content">
+
+            <com.example.acbacommons.ACBAEditText.layouts.AcbaEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColor="#040404"
+                android:background="#B8B8B8"
+                app:validator="password" />
+
+        </com.example.acbacommons.ACBAEditText.layouts.InputLayoutAcba>
+
+        <Button
+            android:id="@+id/validate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:doubleClick="true"
+            app:duration="900"
+            android:text="Validate"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>
