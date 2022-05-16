@@ -1,4 +1,4 @@
-package com.example.acbacommons
+package com.example.acbacommons.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

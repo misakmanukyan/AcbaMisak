@@ -1,4 +1,4 @@
-package com.example.acbacommons
+package com.example.acbacommons.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

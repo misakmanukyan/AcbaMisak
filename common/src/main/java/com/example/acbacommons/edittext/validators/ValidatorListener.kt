@@ -1,4 +1,4 @@
-package com.example.acbacommons.ACBAEditText.validators
+package com.example.acbacommons.edittext.validators
 
 interface ValidatorListener {
     fun isRequiredForValidation(): Boolean
