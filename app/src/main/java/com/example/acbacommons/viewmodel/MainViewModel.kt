@@ -1,4 +1,4 @@
-package com.example.acbacommons
+package com.example.acbacommons.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -9,6 +9,7 @@ import kotlinx.coroutines.launch
 import retrofit2.Response
 
 class MainViewModel(private val repository: Repository): ViewModel() {
+
 
     val myResponse: MutableLiveData<Response<Post>> = MutableLiveData()
     fun getPost() {

@@ -1,4 +1,4 @@
-package com.example.acbacommons.ACBAEditText.layouts
+package com.example.acbacommons.edittext.layouts
 
 import android.content.Context
 import android.text.Editable
@@ -6,8 +6,8 @@ import android.text.TextWatcher
 import android.util.AttributeSet
 import android.view.View
 import androidx.appcompat.widget.AppCompatEditText
-import com.example.acbacommons.ACBAEditText.validators.ValidatorEnum
-import com.example.acbacommons.ACBAEditText.validators.ValidatorListener
+import com.example.acbacommons.edittext.validators.ValidatorEnum
+import com.example.acbacommons.edittext.validators.ValidatorListener
 import com.example.acbacommons.R
 import kotlin.properties.Delegates
 

@@ -1,4 +1,4 @@
-package com.example.acbacommons.ACBAEditText.layouts
+package com.example.acbacommons.edittext.layouts
 
 import android.content.Context
 import android.util.AttributeSet

@@ -12,14 +12,14 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="16dp"
-        tools:context=".MainActivity">
+        tools:context=".ui.MainActivity">
 
-        <com.example.acbacommons.ACBAEditText.layouts.InputLayoutAcba
+        <com.example.acbacommons.edittext.layouts.InputLayoutAcba
             android:layout_width="match_parent"
             android:layout_marginTop="16dp"
             android:layout_height="wrap_content">
 
-            <com.example.acbacommons.ACBAEditText.layouts.AcbaEditText
+            <com.example.acbacommons.edittext.layouts.AcbaEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
@@ -28,14 +28,14 @@
                 android:padding="16dp"
                 app:validator="none" />
 
-        </com.example.acbacommons.ACBAEditText.layouts.InputLayoutAcba>
+        </com.example.acbacommons.edittext.layouts.InputLayoutAcba>
 
-        <com.example.acbacommons.ACBAEditText.layouts.InputLayoutAcba
+        <com.example.acbacommons.edittext.layouts.InputLayoutAcba
             android:layout_width="match_parent"
             android:layout_marginTop="16dp"
             android:layout_height="wrap_content">
 
-            <com.example.acbacommons.ACBAEditText.layouts.AcbaEditText
+            <com.example.acbacommons.edittext.layouts.AcbaEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
@@ -44,14 +44,14 @@
                 android:padding="16dp"
                 app:validator="email" />
 
-        </com.example.acbacommons.ACBAEditText.layouts.InputLayoutAcba>
+        </com.example.acbacommons.edittext.layouts.InputLayoutAcba>
 
-        <com.example.acbacommons.ACBAEditText.layouts.InputLayoutAcba
+        <com.example.acbacommons.edittext.layouts.InputLayoutAcba
             android:layout_width="match_parent"
             android:layout_marginTop="16dp"
             android:layout_height="wrap_content">
 
-            <com.example.acbacommons.ACBAEditText.layouts.AcbaEditText
+            <com.example.acbacommons.edittext.layouts.AcbaEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
@@ -60,14 +60,14 @@
                 android:padding="16dp"
                 app:validator="name" />
 
-        </com.example.acbacommons.ACBAEditText.layouts.InputLayoutAcba>
+        </com.example.acbacommons.edittext.layouts.InputLayoutAcba>
 
-        <com.example.acbacommons.ACBAEditText.layouts.InputLayoutAcba
+        <com.example.acbacommons.edittext.layouts.InputLayoutAcba
             android:layout_width="match_parent"
             android:layout_marginTop="16dp"
             android:layout_height="wrap_content">
 
-            <com.example.acbacommons.ACBAEditText.layouts.AcbaEditText
+            <com.example.acbacommons.edittext.layouts.AcbaEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
@@ -76,14 +76,14 @@
                 android:background="#B8B8B8"
                 app:validator="password" />
 
-        </com.example.acbacommons.ACBAEditText.layouts.InputLayoutAcba>
+        </com.example.acbacommons.edittext.layouts.InputLayoutAcba>
 
-        <Button
+        <com.example.acbacommons.button.AcbaButton
             android:id="@+id/validate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:doubleClick="true"
-            app:duration="900"
+            app:duration="2000"
             android:text="Validate"
             android:textSize="20dp"/>
 
